@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*
+After Hours Tea Room
+CSIS 1280-006 Web Design Exercise
+Earthy sage, brown, and grey colour theme
+By Maria Prieto Segura
+
+*/
+
+/* Colours */
+
+body {
+color: rgb(67, 67, 61);
+background-color: hsl(40, 18%, 90%);
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+margin: 0;
+}
+
+.container {
+background-color: #f5f1e8;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+/* Header */
+
+header {
+color: white;
+background-color: #596b59;
+text-align: center;
+padding: 30px;
+}
+
+header h1 {
+font-family: Georgia, "Times New Roman", serif;
+font-size: 2.4em;
+letter-spacing: 0.08em;
+margin: 0;
+}
+
+header p {
+font-style: italic;
+letter-spacing: 0.05em;
+}
+
+/* Headings */
+
+h2 {
+color: hsl(25, 25%, 28%);
+font-family: Georgia, "Times New Roman", serif;
+font-size: 1.5em;
+letter-spacing: 0.04em;
+}
+
+article h2 {
+background-color: rgb(185, 190, 166);
+border-left: 8px solid #596b59;
+padding: 8px;
+}
+
+/* Layout */
+
+.columns {
+box-sizing: border-box;
+width: 100%;
+}
+
+.columns::after {
+content: "";
+display: block;
+clear: both;
+}
+
+nav {
+box-sizing: border-box;
+float: left;
+width: 22%;
+background-color: #d8ddd0;
+padding: 20px;
+}
+
+main {
+box-sizing: border-box;
+float: left;
+width: 53%;
+background-color: #f5f1e8;
+padding: 25px;
+}
+
+aside {
+box-sizing: border-box;
+float: left;
+width: 25%;
+background-color: rgb(214, 208, 197);
+padding: 20px;
+}
+
+/* Navigation */
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav li {
+padding: 8px;
+}
+
+nav a:link {
+color: #4d604d;
+text-decoration: none;
+}
+
+nav a:visited {
+color: #6f6255;
+}
+
+nav a:hover {
+color: white;
+background-color: #596b59;
+text-decoration: underline;
+}
+
+nav a:active {
+color: #3e3027;
+}
+
+/* Tea list */
+
+article ul {
+list-style-type: square;
+}
+
+article li {
+padding: 5px;
+}
+
+/* Visitor quotes */
+
+blockquote {
+color: #51483f;
+background-color: #e6e0d6;
+font-style: italic;
+padding: 12px;
+margin: 15px 0;
+}
+
+blockquote::before {
+content: "“";
+font-size: 1.5em;
+}
+
+blockquote::after {
+content: "”";
+font-size: 1.5em;
+}
+
+/* Footer */
+
+footer {
+clear: both;
+color: white;
+background-color: #4b514b;
+text-align: center;
+font-variant: small-caps;
+font-size: 0.9em;
+padding: 20px;
+}
+
+address {
+font-style: normal;
+}
